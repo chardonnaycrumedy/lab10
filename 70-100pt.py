@@ -24,5 +24,13 @@ drawpad.grid(row=0, column=1)
 
 # Insert your code here to draw the house!
 
+#house and roof
+rectangle = drawpad.create_rectangle(200,200,400,400)
+line = drawpad.create_line(200,200,300,100)
+line = drawpad.create_line(300,100,400,200)
+#door
+rectangle = drawpad.create_rectangle(270,390,320,320)
+#window
+rectangle = drawpad.create_rectangle(270,390,270,320)
 
 root.mainloop()
